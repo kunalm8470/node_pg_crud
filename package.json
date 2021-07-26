@@ -1,0 +1,33 @@
+{
+  "name": "node_pg_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalm8470/node_pg_crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunalm8470/node_pg_crud/issues"
+  },
+  "homepage": "https://github.com/kunalm8470/node_pg_crud#readme",
+  "dependencies": {
+    "ajv": "^8.6.2",
+    "ajv-formats": "^2.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-json-patch": "^3.0.0-1",
+    "http-status-codes": "^2.1.4",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.1"
+  }
+}

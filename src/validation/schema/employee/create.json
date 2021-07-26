@@ -1,0 +1,41 @@
+{
+    "$async": true,
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 500
+        },
+        "code": {
+            "type": "string",
+            "minLength": 6,
+            "maxLength": 6
+        },
+        "salary": {
+            "type": "number",
+            "maximum": 9999999999
+        },
+        "hireDate": {
+            "type": "string",
+            "format": "date",
+            "formatMinimum": "2000-01-01",
+            "formatExclusiveMaximum": "2022-01-01"
+        },
+        "managerId": {
+            "type": "integer"
+        },
+        "deptId": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "name",
+        "code",
+        "salary",
+        "hireDate",
+        "managerId",
+        "deptId"
+    ],
+    "additionalProperties": false
+}
